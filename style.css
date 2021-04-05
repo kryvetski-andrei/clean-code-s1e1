@@ -10,10 +10,10 @@ body {
     display: block;
     text-align: right;
 }
-.header img {
+.header__img {
     width: 100%;
 }
-.header .more_inf {
+.header__link {
     font-family: fantasy, cursive;
 }
 
@@ -123,12 +123,12 @@ article > label {
 article >    input[type="text"] {
     width: 226px;
 }
-.delete img {
+.btn--delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.btn--delete img:hover {
     transform: rotateZ(0);
 }
 
