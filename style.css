@@ -141,13 +141,13 @@ button {
   width: 226px;
 }
 
-.btn-img {
+.btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-img:hover {
+.btn__img:hover {
   transform: rotateZ(0);
 }
 
